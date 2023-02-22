@@ -1,0 +1,489 @@
+[
+{
+  "model": "quiz.metadata",
+  "pk": 1,
+  "fields": {
+    "title": "Earth Quiz",
+    "description": "Test your knowledge about Earth.",
+    "published": true
+  }
+},
+{
+  "model": "quiz.metadata",
+  "pk": 9,
+  "fields": {
+    "title": "AI Quiz",
+    "description": "Test your knowledge about Artificial Intelligence.",
+    "published": true
+  }
+},
+{
+  "model": "quiz.metadata",
+  "pk": 10,
+  "fields": {
+    "title": "Cars Quiz",
+    "description": "Test your knowledge about cars.",
+    "published": true
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 1,
+  "fields": {
+    "metaDataId": 1,
+    "title": "Radius of Earth",
+    "description": "Whats the radius of the earth?",
+    "mandatory": true
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 2,
+  "fields": {
+    "metaDataId": 1,
+    "title": "How far is the sun?",
+    "description": "Select the correct miles.",
+    "mandatory": true
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 11,
+  "fields": {
+    "metaDataId": 9,
+    "title": "What is AI?",
+    "description": "Select the correct definition.",
+    "mandatory": true
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 12,
+  "fields": {
+    "metaDataId": 9,
+    "title": "What is machine learning?",
+    "description": "Select the correct definition.",
+    "mandatory": true
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 13,
+  "fields": {
+    "metaDataId": 9,
+    "title": "What is deep learning?",
+    "description": "Select the correct definition.",
+    "mandatory": true
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 14,
+  "fields": {
+    "metaDataId": 9,
+    "title": "What is natural language processing?",
+    "description": "Select the correct definition.",
+    "mandatory": true
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 15,
+  "fields": {
+    "metaDataId": 10,
+    "title": "Which car brand has a logo with four rings?",
+    "description": "Which car company's logo consists of four rings overlapping each other?",
+    "mandatory": true
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 16,
+  "fields": {
+    "metaDataId": 10,
+    "title": "What is the most sold car model of all time?",
+    "description": "Which car model has sold the most units worldwide?",
+    "mandatory": true
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 17,
+  "fields": {
+    "metaDataId": 10,
+    "title": "What is the name of the first car ever made?",
+    "description": "What was the name of the first automobile ever made?",
+    "mandatory": true
+  }
+},
+{
+  "model": "quiz.question",
+  "pk": 18,
+  "fields": {
+    "metaDataId": 10,
+    "title": "What is the max speed of a Bugatti Chiron Super?",
+    "description": "What is the top speed of the Bugatti Chiron Super Sport 300+ in miles per hour?",
+    "mandatory": true
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 1,
+  "fields": {
+    "questionId": 1,
+    "reply": "6,371 kilometers (3,959 miles)",
+    "rightAnswer": true
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 2,
+  "fields": {
+    "questionId": 1,
+    "reply": "6,230 kilometers (3,230 miles)",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 3,
+  "fields": {
+    "questionId": 1,
+    "reply": "6,110 kilometers (3,110 miles)",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 4,
+  "fields": {
+    "questionId": 1,
+    "reply": "5,371 kilometers (1,959 miles)",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 5,
+  "fields": {
+    "questionId": 2,
+    "reply": "92.96 million miles",
+    "rightAnswer": true
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 6,
+  "fields": {
+    "questionId": 2,
+    "reply": "93.96 million miles",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 7,
+  "fields": {
+    "questionId": 2,
+    "reply": "94.96 million miles",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 8,
+  "fields": {
+    "questionId": 2,
+    "reply": "95.96 million miles",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 9,
+  "fields": {
+    "questionId": 11,
+    "reply": "A branch of computer science that deals with the study and development of intelligent machines and software.",
+    "rightAnswer": true
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 10,
+  "fields": {
+    "questionId": 11,
+    "reply": "The ability of machines to perform tasks that normally require human intelligence.",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 11,
+  "fields": {
+    "questionId": 11,
+    "reply": "A type of robot that can perform a wide range of tasks.",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 12,
+  "fields": {
+    "questionId": 11,
+    "reply": "A type of computer program that can learn and adapt to new situations.",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 13,
+  "fields": {
+    "questionId": 12,
+    "reply": "A type of AI that allows machines to learn from data and improve their performance over time.",
+    "rightAnswer": true
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 14,
+  "fields": {
+    "questionId": 12,
+    "reply": "A type of computer program that can simulate human conversation.",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 15,
+  "fields": {
+    "questionId": 12,
+    "reply": "A type of robot that can learn and adapt to new situations.",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 16,
+  "fields": {
+    "questionId": 12,
+    "reply": "A type of computer program that can recognize patterns in data.",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 17,
+  "fields": {
+    "questionId": 13,
+    "reply": "A type of machine learning that uses artificial neural networks to model and solve complex problems.",
+    "rightAnswer": true
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 18,
+  "fields": {
+    "questionId": 13,
+    "reply": "A type of AI that allows machines to learn from data and improve their performance over time.",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 19,
+  "fields": {
+    "questionId": 13,
+    "reply": "A type of computer program that can simulate human conversation.",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 20,
+  "fields": {
+    "questionId": 13,
+    "reply": "A type of computer program that can recognize patterns in data.",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 21,
+  "fields": {
+    "questionId": 14,
+    "reply": "A type of AI that allows machines to understand and generate human language.",
+    "rightAnswer": true
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 22,
+  "fields": {
+    "questionId": 14,
+    "reply": "A type of machine learning that uses artificial neural networks to model and solve complex problems.",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 23,
+  "fields": {
+    "questionId": 14,
+    "reply": "A type of computer program that can recognize patterns in data.",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 24,
+  "fields": {
+    "questionId": 14,
+    "reply": "A type of robot that can perform a wide range of tasks.",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 25,
+  "fields": {
+    "questionId": 15,
+    "reply": "Mercedes",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 26,
+  "fields": {
+    "questionId": 15,
+    "reply": "Audi",
+    "rightAnswer": true
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 27,
+  "fields": {
+    "questionId": 15,
+    "reply": "BMW",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 28,
+  "fields": {
+    "questionId": 15,
+    "reply": "Porsche",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 29,
+  "fields": {
+    "questionId": 16,
+    "reply": "Toyota Corolla",
+    "rightAnswer": true
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 30,
+  "fields": {
+    "questionId": 16,
+    "reply": "Ford F-Series",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 31,
+  "fields": {
+    "questionId": 16,
+    "reply": "Volkswagen Golf",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 32,
+  "fields": {
+    "questionId": 16,
+    "reply": "Honda Civic",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 33,
+  "fields": {
+    "questionId": 17,
+    "reply": "Ford Model T",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 34,
+  "fields": {
+    "questionId": 17,
+    "reply": "Benz Patent-Motorwagen",
+    "rightAnswer": true
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 35,
+  "fields": {
+    "questionId": 17,
+    "reply": "Peugeot Type 3",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 36,
+  "fields": {
+    "questionId": 17,
+    "reply": "Oldsmobile Curved Dash",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 37,
+  "fields": {
+    "questionId": 18,
+    "reply": "250 mph",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 38,
+  "fields": {
+    "questionId": 18,
+    "reply": "270 mph",
+    "rightAnswer": false
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 39,
+  "fields": {
+    "questionId": 18,
+    "reply": "300 mph",
+    "rightAnswer": true
+  }
+},
+{
+  "model": "quiz.answer",
+  "pk": 40,
+  "fields": {
+    "questionId": 18,
+    "reply": "320 mph",
+    "rightAnswer": false
+  }
+}
+]
